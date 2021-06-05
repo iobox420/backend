@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:client" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1bad149-2817-4cc0-bf11-09b2fd126ffc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="newesdf" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tOSoAoY1r55xo38mCiwZFlFOGY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app.js" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1bad149-2817-4cc0-bf11-09b2fd126ffc" name="Default Changelist" comment="" />
+      <created>1622638815002</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622638815002</updated>
+      <workItem from="1622638816597" duration="10609000" />
+      <workItem from="1622777886216" duration="12536000" />
+    </task>
+    <task id="LOCAL-00001" summary="com-1">
+      <created>1622875056378</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622875056378</updated>
+    </task>
+    <task id="LOCAL-00002" summary="com-1">
+      <created>1622875141509</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622875141510</updated>
+    </task>
+    <task id="LOCAL-00003" summary="com-1">
+      <created>1622875213118</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622875213118</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="com-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="com-1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="253" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622696675470">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="413" y="253" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1622696675470" />
+    <state x="739" y="303" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1622696664347">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="739" y="303" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1622696664347" />
+    <state width="983" height="466" key="DebuggerActiveHint" timestamp="1622867492914">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="983" height="466" key="DebuggerActiveHint/0.0.1920.1200@0.0.1920.1200" timestamp="1622867492914" />
+    <state x="739" y="353" key="FileChooserDialogImpl" timestamp="1622696657934">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="739" y="353" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1622696657934" />
+    <state width="920" height="405" key="GridCell.Tab.0.bottom" timestamp="1622875015790">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="920" height="405" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1622875015790" />
+    <state width="920" height="405" key="GridCell.Tab.0.center" timestamp="1622875015790">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="920" height="405" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1622875015790" />
+    <state width="920" height="405" key="GridCell.Tab.0.left" timestamp="1622875015790">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="920" height="405" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1622875015790" />
+    <state width="920" height="405" key="GridCell.Tab.0.right" timestamp="1622875015790">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="920" height="405" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1622875015790" />
+    <state width="920" height="405" key="GridCell.Tab.1.bottom" timestamp="1622875015790">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="920" height="405" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1622875015790" />
+    <state width="920" height="405" key="GridCell.Tab.1.center" timestamp="1622875015790">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="920" height="405" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1622875015790" />
+    <state width="920" height="405" key="GridCell.Tab.1.left" timestamp="1622875015790">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="920" height="405" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1622875015790" />
+    <state width="920" height="405" key="GridCell.Tab.1.right" timestamp="1622875015790">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="920" height="405" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1622875015790" />
+    <state width="920" height="405" key="GridCell.Tab.2.bottom" timestamp="1622875015790">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="920" height="405" key="GridCell.Tab.2.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1622875015790" />
+    <state width="920" height="405" key="GridCell.Tab.2.center" timestamp="1622875015790">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="920" height="405" key="GridCell.Tab.2.center/0.0.1920.1200@0.0.1920.1200" timestamp="1622875015790" />
+    <state width="920" height="405" key="GridCell.Tab.2.left" timestamp="1622875015790">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="920" height="405" key="GridCell.Tab.2.left/0.0.1920.1200@0.0.1920.1200" timestamp="1622875015790" />
+    <state width="920" height="405" key="GridCell.Tab.2.right" timestamp="1622875015790">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="920" height="405" key="GridCell.Tab.2.right/0.0.1920.1200@0.0.1920.1200" timestamp="1622875015790" />
+    <state x="532" y="101" key="SettingsEditor" timestamp="1622779789029">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="532" y="101" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1622779789029" />
+    <state x="71" y="311" key="Vcs.Push.Dialog.v2" timestamp="1622875215283">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="71" y="311" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1622875215283" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/api.js</url>
+          <line>6</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/api.js</url>
+          <line>28</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/api.js</url>
+          <line>25</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
