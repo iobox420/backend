@@ -181,7 +181,7 @@ function f_questions_posts_rdn_val() {
     db.query(
       // prettier-ignore
       // Запрос к базе
-      "INSERT INTO `questions_posts` (`_id_post`, `id_user`, `heading`, `questions_text`, `date_create`) VALUES (NULL, '" + RDM(1, 999) + "', '" + makeid(20) + "','" + makeid(100) + "', FROM_UNIXTIME( UNIX_TIMESTAMP('2018-04-30 14:53:27') + FLOOR(0 + (RAND() * 63072000)) ))",
+      "INSERT INTO `questions_posts` (`_id_post`, `id_user`, `heading`, `questions_text`, `date_create`) VALUES (NULL, '" + RDM(1, 999) + "', '" + makeid(20) + "','" + makeid(100) + "', FROM_UNIXTIME( UNIX_TIMESTAMP('2019-07-06 14:53:27') + FLOOR(0 + (RAND() * 63072000)) ))",
       (error, result, fields) => {
         if (error) {
           //Если ошибка то вывести ошибку
