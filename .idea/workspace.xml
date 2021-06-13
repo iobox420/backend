@@ -12,9 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f1bad149-2817-4cc0-bf11-09b2fd126ffc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/postRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/postRouter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
       <workItem from="1622895091627" duration="2996000" />
       <workItem from="1622898118195" duration="28428000" />
       <workItem from="1623055787888" duration="17153000" />
-      <workItem from="1623588670897" duration="7926000" />
+      <workItem from="1623588670897" duration="8484000" />
     </task>
     <task id="LOCAL-00001" summary="com-1">
       <created>1622875056378</created>
@@ -160,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623593565173</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="com-3-Add avatar url in database">
+      <created>1623600805126</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1623600805126</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,10 +258,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="431" y="69" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1622965919782" />
-    <state x="71" y="311" key="Vcs.Push.Dialog.v2" timestamp="1623593566211">
+    <state x="71" y="311" key="Vcs.Push.Dialog.v2" timestamp="1623600806939">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="71" y="311" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1623593566211" />
+    <state x="71" y="311" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1623600806939" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
