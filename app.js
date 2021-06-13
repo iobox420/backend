@@ -206,12 +206,19 @@ function rdm_avatar() {
 }
 
 function f_user_rdn_val1() {
-  for (let iw = 0; iw < 1000; iw++) {
+  for (let iw = 1; iw < 1000; iw++) {
+    let sql =
+      "UPDATE `users` SET `avatar_url` = '" +
+      rdm_avatar() +
+      "' WHERE `users`.`_id_user` = " +
+      iw +
+      "";
+    /*return sql;*/
     db.query(
       // prettier-ignore
+      //UPDATE `users` SET `avatar_url` = '" + rdm_avatar() + "' WHERE `users`.`_id_user` = '" + iw + "'
       // Запрос к базе
-      "INSERT INTO `users` (`avatar_url`) " +
-            "VALUES ('" + rdm_avatar() + "');",
+      sql,
       (error, result, fields) => {
         if (error) {
           //Если ошибка то вывести ошибку
@@ -228,7 +235,8 @@ function f_user_rdn_val1() {
     );
   }
 }
-f_user_rdn_val1();
+/*f_user_rdn_val1()*/
+/*console.log(f_user_rdn_val1());*/
 /*for (let wq = 0; wq < 10; wq++) {
   console.log(rdm_avatar());
 }*/
