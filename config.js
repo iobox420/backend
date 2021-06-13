@@ -1,13 +1,14 @@
-/*module.exports = {
+module.exports = {
   HOST: "127.0.0.1",
   PORT: 3306,
   USER: "root",
   PASSWORD: "root",
-  DATABASE: "express_database",
+  DATABASE: "questions1",
   jwt: "jwt-key",
   serverIp: "localhost",
   serverPort: "4000",
-};*/
+};
+/*
 module.exports = {
   HOST: "185.251.88.110",
   PORT: 80,
@@ -18,3 +19,4 @@ module.exports = {
   serverIp: "localhost",
   serverPort: "4000",
 };
+*/

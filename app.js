@@ -113,7 +113,8 @@ app.use("/api", apiRouter);
 app.use("/api", postRouter);
 
 app.get("*", (req, res) => {
-  return res.sendFile(path.join(__dirname, "/client/build/index.html"));
+  /*return res.sendFile(path.join(__dirname, "/client/build/index.html"));*/
+  return "Server has been started";
 });
 
 // error handler
