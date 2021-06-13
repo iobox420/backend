@@ -79,7 +79,7 @@
       <workItem from="1622895091627" duration="2996000" />
       <workItem from="1622898118195" duration="28428000" />
       <workItem from="1623055787888" duration="17153000" />
-      <workItem from="1623588670897" duration="2919000" />
+      <workItem from="1623588670897" duration="3454000" />
     </task>
     <task id="LOCAL-00001" summary="com-1">
       <created>1622875056378</created>
@@ -144,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623591218430</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="com-3-Add avatar url in database">
+      <created>1623593280055</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1623593280055</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,10 +245,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="431" y="69" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1622965919782" />
-    <state x="71" y="311" key="Vcs.Push.Dialog.v2" timestamp="1623591219452">
+    <state x="71" y="311" key="Vcs.Push.Dialog.v2" timestamp="1623593281240">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="71" y="311" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1623591219452" />
+    <state x="71" y="311" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1623593281240" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
