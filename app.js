@@ -73,12 +73,12 @@ passport.use(
           message: 'Token not matched',
         })
       }*/
-
+      //
       try {
         db.query(
           // prettier-ignore
           // Запрос к базе
-          "SELECT `_id_user`, `email`, `password` FROM `users` WHERE `id` = '" + jwt_payload.user._id + "' AND `email` = '" + jwt_payload.user.email +"'",
+          "SELECT `_id_user`, `email`, `password` FROM `users` WHERE `_id_user` = '" + jwt_payload.user._id + "' AND `email` = '" + jwt_payload.user.email +"'",
           (error, result, fields) => {
             if (error) {
               //Если ошибка то вывести ошибку
