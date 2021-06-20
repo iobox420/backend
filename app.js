@@ -31,7 +31,7 @@ passport.use(
         db.query(
           // prettier-ignore
           // Запрос к базе
-          "SELECT `id`, `email`, `password` FROM `users` WHERE `email` = '" + email + "' AND `password` = '" + password +"'",
+          "SELECT `_id_user`, `email`, `password` FROM `users` WHERE `email` = '" + email + "' AND `password` = '" + password +"'",
           (error, result, fields) => {
             if (error) {
               //Если ошибка то вывести ошибку
