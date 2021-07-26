@@ -9,6 +9,7 @@ const passportJWT = require('passport-jwt')
 const config = require('./config')
 const db = require('./db-pool')
 const bcrypt = require('bcryptjs')
+const bodyParser = require('body-parser')
 
 //Routers
 const apiRouter = require('./routes/apiRouter')
@@ -21,6 +22,8 @@ const JWTStrategy = passportJWT.Strategy
 const app = express()
 app.use(passport.initialize())
 app.use(cors())
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: true }))
 
 passport.use(
   new LocalStrategy(

@@ -78,30 +78,6 @@ router.get('/questions/questions_posts/:id_post', function (req, res) {
   starter()
 })
 
-/*router.post('/questions/questions_posts/add/:text', (req, res, next) => {
-  passport.authenticate('local', (err, user) => {
-    if (err) {
-      return next(err)
-    }
-    if (!user) {
-      return res.send('Wrong email or password')
-    }
-    req.login(user, () => {
-      const body = {
-        _id: user._id_user,
-        user_name: user.user_name,
-      }
-      debugger
-      const token = jwt.sign({ user: body }, 'jwt_secret')
-      return res.json({
-        user: user.user_name,
-        avatarUrl: user.avatar_url,
-        token: token,
-      })
-    })
-  })(req, res, next)
-})*/
-
 router.get('/questions/bestof1day/:page', function (req, res) {
   //prettier-ignore
   let sql =
