@@ -85,42 +85,4 @@ router.get(
   }
 )
 
-router.post(
-  '/questions/questions_posts/add/:question/:text',
-  passport.authenticate('jwt', { session: false }),
-  (req, res) => {
-    if (!req.user) {
-      res.json({
-        message: 'you are not authentificated',
-      })
-    } else {
-      console.log('BODY = ', req.body)
-      let sql = `INSERT INTO reply_q (_id_reply, id_post, id_user, reply_text, reply_date_create) VALUES (NULL, '${req.params['question']}', '${req.user._id_user}', '${req.params['text']}', current_timestamp())`
-      console.log(sql)
-      db.query(sql, (error, result, fields) => {
-        try {
-          if (error) {
-            console.log(error)
-          } else {
-            debugger
-            res.json({
-              message: 'insert has been completed',
-              data: result,
-              user: req.user,
-            })
-            /*console.log(result)*/
-          }
-        } catch (e) {
-          console.log(e)
-        }
-      })
-
-      /*      res.json({
-        data: req.user,
-        message: 'your are authentificated',
-      })*/
-    }
-  }
-)
-
 module.exports = router

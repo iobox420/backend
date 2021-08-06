@@ -14,6 +14,8 @@ const bodyParser = require('body-parser')
 //Routers
 const apiRouter = require('./routes/apiRouter')
 const postRouter = require('./routes/postRouter')
+const authGetRouter = require('./routes/authGetRouter')
+const authPostRouter = require('./routes/authPostRouter')
 
 const PORT = process.env.PORT || config.serverPort
 const HOSTNAME = config.serverIp
@@ -104,6 +106,8 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.use(express.static(path.join(__dirname, 'client/build')))
 app.use('/api', apiRouter)
 app.use('/api', postRouter)
+app.use('/api', authGetRouter)
+app.use('/api', authPostRouter)
 
 app.get('*', (req, res) => {
   /*return res.sendFile(path.join(__dirname, "/client/build/index.html"));*/

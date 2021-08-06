@@ -11,8 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1bad149-2817-4cc0-bf11-09b2fd126ffc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/routes/authGetRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/authPostRouter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-pool.js" beforeDir="false" afterPath="$PROJECT_DIR$/db-pool.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/apiRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/apiRouter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/postRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/postRouter.js" afterDir="false" />
@@ -51,7 +54,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/routes" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\nodejs\ALLREST\back-front\backend\node_modules\prettier" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -61,6 +64,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\nodejs\ALLREST\back-front\backend\routes" />
       <recent name="C:\nodejs\ALLREST\back-front\backend" />
     </key>
   </component>
@@ -98,7 +102,10 @@
       <workItem from="1626590322650" duration="7550000" />
       <workItem from="1626702143522" duration="1206000" />
       <workItem from="1626866907074" duration="5856000" />
-      <workItem from="1627191190027" duration="12458000" />
+      <workItem from="1627191190027" duration="31800000" />
+      <workItem from="1627531099277" duration="17227000" />
+      <workItem from="1627801632655" duration="23150000" />
+      <workItem from="1628152263649" duration="4391000" />
     </task>
     <task id="LOCAL-00001" summary="com-1">
       <created>1622875056378</created>
@@ -275,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626611579533</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="com-5-stable">
+      <created>1627307773939</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1627307773939</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +313,8 @@
     <MESSAGE value="com-2" />
     <MESSAGE value="com-3-Add avatar url in database" />
     <MESSAGE value="com-4-stable" />
-    <option name="LAST_COMMIT_MESSAGE" value="com-4-stable" />
+    <MESSAGE value="com-5-stable" />
+    <option name="LAST_COMMIT_MESSAGE" value="com-5-stable" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="253" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622696675470">
@@ -310,70 +325,70 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="739" y="303" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1622696664347" />
-    <state width="1653" height="466" key="DebuggerActiveHint" timestamp="1627305463089">
+    <state width="1653" height="466" key="DebuggerActiveHint" timestamp="1627811024139">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1653" height="466" key="DebuggerActiveHint/0.0.1920.1200@0.0.1920.1200" timestamp="1627305463089" />
+    <state width="1653" height="466" key="DebuggerActiveHint/0.0.1920.1200@0.0.1920.1200" timestamp="1627811024139" />
     <state x="739" y="353" key="FileChooserDialogImpl" timestamp="1624186913962">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="739" y="353" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1624186913962" />
-    <state width="1361" height="496" key="GridCell.Tab.0.bottom" timestamp="1627306387779">
+    <state width="1573" height="281" key="GridCell.Tab.0.bottom" timestamp="1628158381809">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1361" height="496" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1627306387779" />
-    <state width="1361" height="496" key="GridCell.Tab.0.center" timestamp="1627306387779">
+    <state width="1573" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1628158381809" />
+    <state width="1573" height="281" key="GridCell.Tab.0.center" timestamp="1628158381809">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1361" height="496" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1627306387779" />
-    <state width="1361" height="496" key="GridCell.Tab.0.left" timestamp="1627306387779">
+    <state width="1573" height="281" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1628158381809" />
+    <state width="1573" height="281" key="GridCell.Tab.0.left" timestamp="1628158381808">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1361" height="496" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1627306387779" />
-    <state width="1361" height="496" key="GridCell.Tab.0.right" timestamp="1627306387779">
+    <state width="1573" height="281" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1628158381808" />
+    <state width="1573" height="281" key="GridCell.Tab.0.right" timestamp="1628158381809">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1361" height="496" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1627306387779" />
-    <state width="1361" height="496" key="GridCell.Tab.1.bottom" timestamp="1627306387780">
+    <state width="1573" height="281" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1628158381809" />
+    <state width="1573" height="281" key="GridCell.Tab.1.bottom" timestamp="1628158381809">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1361" height="496" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1627306387780" />
-    <state width="1361" height="496" key="GridCell.Tab.1.center" timestamp="1627306387779">
+    <state width="1573" height="281" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1628158381809" />
+    <state width="1573" height="281" key="GridCell.Tab.1.center" timestamp="1628158381809">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1361" height="496" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1627306387779" />
-    <state width="1361" height="496" key="GridCell.Tab.1.left" timestamp="1627306387779">
+    <state width="1573" height="281" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1628158381809" />
+    <state width="1573" height="281" key="GridCell.Tab.1.left" timestamp="1628158381809">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1361" height="496" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1627306387779" />
-    <state width="1361" height="496" key="GridCell.Tab.1.right" timestamp="1627306387780">
+    <state width="1573" height="281" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1628158381809" />
+    <state width="1573" height="281" key="GridCell.Tab.1.right" timestamp="1628158381809">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1361" height="496" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1627306387780" />
-    <state width="1361" height="496" key="GridCell.Tab.2.bottom" timestamp="1627306387780">
+    <state width="1573" height="281" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1628158381809" />
+    <state width="1573" height="281" key="GridCell.Tab.2.bottom" timestamp="1628158381809">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1361" height="496" key="GridCell.Tab.2.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1627306387780" />
-    <state width="1361" height="496" key="GridCell.Tab.2.center" timestamp="1627306387780">
+    <state width="1573" height="281" key="GridCell.Tab.2.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1628158381809" />
+    <state width="1573" height="281" key="GridCell.Tab.2.center" timestamp="1628158381809">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1361" height="496" key="GridCell.Tab.2.center/0.0.1920.1200@0.0.1920.1200" timestamp="1627306387780" />
-    <state width="1361" height="496" key="GridCell.Tab.2.left" timestamp="1627306387780">
+    <state width="1573" height="281" key="GridCell.Tab.2.center/0.0.1920.1200@0.0.1920.1200" timestamp="1628158381809" />
+    <state width="1573" height="281" key="GridCell.Tab.2.left" timestamp="1628158381809">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1361" height="496" key="GridCell.Tab.2.left/0.0.1920.1200@0.0.1920.1200" timestamp="1627306387780" />
-    <state width="1361" height="496" key="GridCell.Tab.2.right" timestamp="1627306387780">
+    <state width="1573" height="281" key="GridCell.Tab.2.left/0.0.1920.1200@0.0.1920.1200" timestamp="1628158381809" />
+    <state width="1573" height="281" key="GridCell.Tab.2.right" timestamp="1628158381809">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1361" height="496" key="GridCell.Tab.2.right/0.0.1920.1200@0.0.1920.1200" timestamp="1627306387780" />
+    <state width="1573" height="281" key="GridCell.Tab.2.right/0.0.1920.1200@0.0.1920.1200" timestamp="1628158381809" />
     <state x="181" y="65" key="SettingsEditor" timestamp="1624775902442">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="181" y="65" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1624775902442" />
-    <state x="71" y="311" key="Vcs.Push.Dialog.v2" timestamp="1626611581073">
+    <state x="71" y="311" key="Vcs.Push.Dialog.v2" timestamp="1627307775441">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="71" y="311" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1626611581073" />
+    <state x="71" y="311" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1627307775441" />
     <state x="1147" y="333" width="585" height="534" key="find.popup" timestamp="1627305624599">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -390,8 +405,73 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/apiRouter.js</url>
           <line>22</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/authGetRouter.js</url>
+          <line>15</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/authGetRouter.js</url>
+          <line>14</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/authGetRouter.js</url>
+          <line>17</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/authGetRouter.js</url>
+          <line>19</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/authGetRouter.js</url>
+          <line>16</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/authGetRouter.js</url>
+          <line>18</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/authGetRouter.js</url>
+          <line>20</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/authGetRouter.js</url>
+          <line>26</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/authGetRouter.js</url>
+          <line>48</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/authGetRouter.js</url>
+          <line>50</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/authGetRouter.js</url>
+          <line>55</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
